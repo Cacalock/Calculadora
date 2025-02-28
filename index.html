@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <header>
+        <img src="./img/heart-anime-cute-character-cartoon-model-emotion-illustration-clipart-drawing-kawaii-manga-design-idea-art-free-png.webp" alt="coraçãoes" width="100" height="100">
+        <h3 class="playwrite">CALCULADORA FOFA DA SILVA</h3>
+        <img src="./img/kawaii-4.png" alt="cachorro com asas de anjos" width="100" height="100">
+    </header>
+    <main>
+        <input type="text" id="display" placeholder="Hello World" readonly>
+        <div class="botoes">
+            <button class="playwrite" onclick="adicionar('7')">7</button>
+            <button class="playwrite" onclick="adicionar('8')">8</button>
+            <button class="playwrite" onclick="adicionar('9')">9</button>
+            <button class="playwrite" onclick="adicionar('/')">/</button>
+            <button class="playwrite" onclick="adicionar('4')">4</button>
+            <button class="playwrite" onclick="adicionar('5')">5</button>
+            <button class="playwrite" onclick="adicionar('6')">6</button>
+            <button class="playwrite" onclick="adicionar('*')">×</button>
+            <button class="playwrite" onclick="adicionar('1')">1</button>
+            <button class="playwrite" onclick="adicionar('2')">2</button>
+            <button class="playwrite" onclick="adicionar('3')">3</button>
+            <button class="playwrite" onclick="adicionar('-')">-</button>
+            <button class="playwrite" onclick="adicionar('0')">0</button>
+            <button class="playwrite" onclick="adicionar('.')">.</button>
+            <button class="playwrite" onclick="calcular()">=</button>
+            <button class="playwrite" onclick="adicionar('+')">+</button>
+            <button class="playwrite limpar" onclick="limpar()">C</button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>
